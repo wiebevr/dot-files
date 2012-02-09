@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/plomplot/Coding/Android/HelloWorld'
+let g:netrw_dirhist_2='/home/plomplot/Coding/Android/HelloWorld/src'
+let g:netrw_dirhist_3='/home/plomplot/Coding/Android/HelloWorld/src/plomplot'
+let g:netrw_dirhist_4='/home/plomplot/Coding/Android/HelloWorld/src/plomplot/tutorials'
+let g:netrw_dirhist_5='/home/plomplot/Coding/Android/HelloWorld/src/plomplot/tutorials/HelloWorld1'
+let g:netrw_dirhist_6='/home/plomplot/Coding/Android/HelloWorld/res/layout'
