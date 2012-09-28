@@ -29,4 +29,5 @@ plugins=(git archlinux)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-fortune archer
+#fortune archer
+PATH = $PATH:/home/plomplot/.gem/ruby/1.9.1/bin
