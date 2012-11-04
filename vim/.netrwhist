@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/plomplot'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/plomplot/medicim98/MeshDecimate/Libraries/CoreGPU/src'
+let g:netrw_dirhist_2='/home/plomplot/medicim98/MeshDecimate/Libraries/CoreGPU'
+let g:netrw_dirhist_3='/home/plomplot/medicim98/MeshDecimate/Libraries/CoreGPU/src'
+let g:netrw_dirhist_4='/home/plomplot/medicim98/MeshDecimate/Libraries/CoreGPU/src/shaders'
+let g:netrw_dirhist_5='/home/plomplot/medicim98/MeshDecimate/Libraries/CoreGPU/src'
+let g:netrw_dirhist_6='/home/plomplot/medicim98/MeshDecimate/Libraries/CoreGPU/src/OGL'
+let g:netrw_dirhist_7='/home/plomplot/medicim98/MeshDecimate/TestPrograms/VolumeRendererApp'

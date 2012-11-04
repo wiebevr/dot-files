@@ -31,3 +31,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 #fortune archer
 export PATH=$PATH:/home/plomplot/.gem/ruby/1.9.1/bin
+
+alias p="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Pause"
+alias n="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Next"
