@@ -23,6 +23,24 @@ set background=dark
 " enable mouse
 set mouse=a
 
+" Highlight matches while typing
+set incsearch
+
+" Number of screen lines shown around the cursor
+set scrolloff=4
+
+" Cursorline
+set cul
+
+" Highlight line 80
+set cc=80
+
+" Make all the windows the same size when adding and removing.
+set ea
+
+
+
+
 " Filetype + syntax highlighting
 filetype plugin indent on
 syntax on
