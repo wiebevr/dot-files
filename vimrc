@@ -37,8 +37,8 @@ set cc=80
 
 " Make all the windows the same size when adding and removing.
 set ea
-
-
+set wildmenu
+set wildmode=list:longest,full
 
 
 " Filetype + syntax highlighting
