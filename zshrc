@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="plomplot"
+ZSH_THEME="kphoen"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -34,3 +34,5 @@ export PATH=$PATH:/home/plomplot/.gem/ruby/1.9.1/bin
 
 alias p="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Pause"
 alias n="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Next"
+
+gk () { git diff $* | kompare - ; }
