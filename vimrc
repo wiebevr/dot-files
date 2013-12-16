@@ -109,6 +109,13 @@ let g:ctrlp_max_height = 30
 " Jedi-vim
 let g:jedi#use_tabs_not_buffers = 0
 
+" ipdb breakpoint shortcut
+map <Leader>b :call InsertBreakpoint()<CR>
+
+function! InsertBreakpoint()
+    let trace = expand("import pdb; pdb.set_trace()")
+    execute "normal o".trace
+endfunction
 
 " omnicoplete for java (Android development)
 "if has("autocmd")
