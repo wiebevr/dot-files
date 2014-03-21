@@ -114,7 +114,6 @@ let g:jedi#use_tabs_not_buffers = 0
 " ipdb debugger
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
-
 " omnicoplete for java (Android development)
 "if has("autocmd")
 " autocmd Filetype java setlocal omnifunc=javacomplete#Complete
