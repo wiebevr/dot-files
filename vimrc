@@ -46,6 +46,8 @@ set wildmode=list:longest,full
 " Filetype + syntax highlighting
 filetype plugin indent on
 syntax on
+" A .cl file means OpenCL not Common Lisp
+au BufNewFile,BufRead *.cl set filetype=opencl
 
 " Disable backup
 set nobackup
@@ -108,6 +110,9 @@ let g:ctrlp_max_height = 30
 
 " Jedi-vim
 let g:jedi#use_tabs_not_buffers = 0
+
+" ipdb debugger
+map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 
 " omnicoplete for java (Android development)

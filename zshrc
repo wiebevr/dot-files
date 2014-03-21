@@ -36,3 +36,5 @@ alias p="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Pause"
 alias n="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Next"
 
 gk () { git diff $* | kompare - ; }
+PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
+
