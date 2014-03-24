@@ -37,3 +37,4 @@ alias n="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Next"
 
 gk () { git diff $* | kompare - ; }
 PATH=$PATH:/usr/share/xsb/xsb-3.4.0/bin/
+export PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"

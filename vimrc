@@ -46,6 +46,8 @@ set wildmode=list:longest,full
 " Filetype + syntax highlighting
 filetype plugin indent on
 syntax on
+" A .cl file means OpenCL not Common Lisp
+au BufNewFile,BufRead *.cl set filetype=opencl
 
 " Disable backup
 set nobackup
