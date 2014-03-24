@@ -113,7 +113,7 @@ let g:jedi#use_tabs_not_buffers = 0
 map <Leader>b :call InsertBreakpoint()<CR>
 
 function! InsertBreakpoint()
-    let trace = expand("import pdb; pdb.set_trace()")
+    let trace = expand("import ipdb; ipdb.set_trace()")
     execute "normal o".trace
 endfunction
 
@@ -123,3 +123,5 @@ endfunction
 "endif 
 set omnifunc=syntaxcomplete#Complete
 
+" Language tool
+let g:languagetool_jar='$HOME/.vim/LanguageTool-2.4.1/languagetool-commandline.jar'
