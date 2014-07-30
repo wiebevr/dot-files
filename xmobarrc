@@ -1,4 +1,5 @@
-Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
+Config {
+        font = "xft:Monosapce:size=8:antialias=false"
        , bgColor = "black"
        , fgColor = "grey"
        , position = Top
@@ -14,5 +15,5 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%cpu% | %memory% * %swap% | %enp2s0% }{%volume% | <fc=#ee9a00>%date%</fc>"
+       , template = "%cpu% | %memory% * %swap% | %enp2s0% }{<fc=#ee9a00>%date%</fc>"
        }

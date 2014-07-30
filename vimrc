@@ -66,6 +66,8 @@ if has("gui_running")
     colorscheme molokai
     set guioptions -=m
     set guioptions -=T
+    set guifont=Monospace\ 8
+    "set guifont=Monospace:h20
 else
     set t_Co=256
     colorscheme molokai
