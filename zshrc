@@ -37,4 +37,7 @@ alias n="qdbus org.mpris.clementine /Player org.freedesktop.MediaPlayer.Next"
 
 gk () { git diff $* | kompare - ; }
 PATH=$PATH:/usr/share/xsb/xsb-3.4.0/bin/
-export PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
+export PATH="$(ruby -e 'puts Gem.user_dir')/bin:/home/wvr/go/bin:$PATH"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export GOPATH=/home/wvr/go
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/

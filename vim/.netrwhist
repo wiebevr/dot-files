@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/wvr/Coding/ocl_klt/inc'
-let g:netrw_dirhist_2='/home/wvr/Coding/ocl_klt'
-let g:netrw_dirhist_3='/home/wvr/Coding/ocl_klt/src'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/wvr/Labos/ocl/oefeningen/image_histogram'
+let g:netrw_dirhist_2='/home/wvr/Labos/ocl/oefeningen/mandelbrot'
+let g:netrw_dirhist_3='/home/wvr/Labos/ocl/oefeningen'
+let g:netrw_dirhist_4='/home/wvr/Labos/ocl/oefeningen/image_convolution'
+let g:netrw_dirhist_5='/home/wvr/Labos/ocl/oefeningen'
+let g:netrw_dirhist_6='/home/wvr/Labos/ocl/oefeningen/common'

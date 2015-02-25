@@ -98,6 +98,11 @@ noremap <S-Down> :tabnew<CR>
 map <S-Left> <C-PageUp>
 map <S-Right> <C-PageDown>
 
+" Easy buffer switching, delete # to open file
+nnoremap <F5> :buffers<CR>:edit<Space>#
+
+let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
+
 " Use pathogen to manage plugins
 execute pathogen#infect()
 
@@ -122,10 +127,11 @@ function! InsertBreakpoint()
 endfunction
 
 " omnicoplete for java (Android development)
-"if has("autocmd")
-" autocmd Filetype java setlocal omnifunc=javacomplete#Complete
-"endif 
+if has("autocmd")
+ autocmd Filetype java setlocal omnifunc=javacomplete#Complete
+endif 
 set omnifunc=syntaxcomplete#Complete
 
 " Language tool
 let g:languagetool_jar='$HOME/.vim/LanguageTool-2.4.1/languagetool-commandline.jar'
+

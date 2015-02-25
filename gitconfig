@@ -1,3 +1,5 @@
 [user]
 	name = Wiebe Van Ranst
 	email = wiebevr@gmail.com
+[diff]
+    tool = meld
