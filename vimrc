@@ -144,4 +144,5 @@ let g:languagetool_jar='$HOME/.vim/LanguageTool-2.4.1/languagetool-commandline.j
 
 " ctags
 set tags=./tags;/
+let g:vim_tags_auto_generate = 1
 
