@@ -103,6 +103,13 @@ nnoremap <F5> :buffers<CR>:edit<Space>#
 
 let g:ycm_path_to_python_interpreter = '/usr/bin/python2'
 
+" You Complete Me mappings
+nnoremap <leader>g :YcmCompleter GoTo<CR>
+nnoremap <leader>t :YcmCompleter GetType<CR>
+nnoremap <leader>d :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>p :YcmCompleter GetParent<CR>
+
+
 " Use pathogen to manage plugins
 execute pathogen#infect()
 
@@ -134,4 +141,7 @@ set omnifunc=syntaxcomplete#Complete
 
 " Language tool
 let g:languagetool_jar='$HOME/.vim/LanguageTool-2.4.1/languagetool-commandline.jar'
+
+" ctags
+set tags=./tags;/
 
