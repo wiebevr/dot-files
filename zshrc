@@ -43,3 +43,4 @@ export GOPATH=/home/wvr/go
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-6.5/lib64/
+export EDITOR=vim
